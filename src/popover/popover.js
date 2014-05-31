@@ -16,7 +16,7 @@ angular.module( 'ui.bootstrap.popover', [ 'ui.bootstrap.tooltip' ] )
 
 .directive( 'popover', [ '$tooltip', function ( $tooltip ) {
   return $tooltip( 'popover', 'popover', 'click' );
-}]);
+}])
 
 .directive( 'popoverHtmlUnsafePopup', function () {
   return {
@@ -29,4 +29,4 @@ angular.module( 'ui.bootstrap.popover', [ 'ui.bootstrap.tooltip' ] )
 
 .directive( 'popoverHtmlUnsafe', [ '$tooltip', function ( $tooltip ) {
   return $tooltip( 'popoverHtmlUnsafe', 'popover', 'mouseenter' );
-}])
+}]);
